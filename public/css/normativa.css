@@ -1,0 +1,43 @@
+
+#textoNormativa{
+	float: left;
+	margin-left: 15px;
+	margin-bottom: 20px;
+	width: 44%;
+	box-sizing: border-box;
+	padding: 15px;
+    display: inline-block;
+    border-radius: 10px;
+    background-color: #F6F6F6;
+    box-shadow: 0px 0px 5px 1px #6B8E23;
+}
+
+table, th, td{
+	border: 1px solid black;
+	margin: auto;
+	text-align: center;
+	font-size: 1.2em;
+	background-color: white;
+}
+table img{
+	height: 40px;
+	width: 80px;
+}
+table{
+	margin-right: 2%;
+	margin-bottom: 20px;
+	float: right;
+	width: 50%;
+
+}
+#infoPDF{
+	font-size: 1.3em;
+	text-decoration: none;
+	color: #343642;
+}
+.flechaDerecha{
+    height: 25px;
+    width: 25px;
+    margin-left: 5px;
+    vertical-align: bottom;
+}

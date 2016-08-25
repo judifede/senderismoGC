@@ -1,0 +1,100 @@
+section{
+	height: 100%;
+	width: 80%;
+	margin: auto;
+}
+
+#showing *{
+	display: inline;
+}
+
+.hilosActuales:first-of-type{
+	margin-top: 20px;
+}
+.hilosActuales{
+	box-sizing: border-box;
+	text-align: left;
+	padding: 10px;
+    display: inline-block;
+    width: 60%;
+    height: 7%;
+    margin: 0.2%;
+    border-radius: 10px;
+    background-color: #F6F6F6;
+    box-shadow: 0px 0px 5px 1px #6B8E23;
+}
+.mensajesActuales{
+	box-sizing: border-box;
+	text-align: left;
+	padding: 10px;
+    display: inline-block;
+    width: 60%;
+    height: 7%;
+    margin: 0.2%;
+    border-radius: 10px;
+    background-color: #F6F6F6;
+    box-shadow: 0px 0px 5px 1px #6B8E23;
+}
+.fotoUser{
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+	margin: 5px 15px 5px 15px;
+	text-align: center;
+	display: inline;
+	float: left;
+}
+.perfil{
+	height: 30%;
+	width: 110px;
+	display: inline-block;
+	float: left;
+}
+.nombreUser{
+	font-size: 1.3em;
+	float: left;
+	margin-left: 18% !important;
+}
+.texto{
+	min-height: 100px;
+
+}
+.publiUser{
+	height: 18px !important;
+	width: 100% !important;
+	display: inline-block;
+	float: left;
+}
+#campoTextoPost{
+	display: block;
+	margin: auto;
+}
+#enviarPost{
+	margin: 20px auto auto auto;
+}
+#crearPost{
+	display: block;
+	margin: 40px auto 20px auto;
+	font-size: 1em;
+	color: white;
+	border: 0;
+	padding: 5px 5px;
+	background-color: #333;
+}
+#crearPost:hover, button:hover{
+	background-color: #808000;
+	cursor: pointer;
+}
+button{
+	font-size: 1em;
+	color: white;
+	border: 0;
+	padding: 5px 5px;
+	background-color: #333;
+}
+button:last-of-type{
+	background-color: #808000;
+}
+footer{
+	margin-top: 20px;
+}

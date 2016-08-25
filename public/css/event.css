@@ -1,0 +1,60 @@
+.contenedorSection {
+  margin-top: 35%;
+}
+
+#event {
+  font-size: 2em;
+}
+
+
+.container {
+ width: 350px;
+  height: 350px;
+  position: absolute;
+  left: 20px;
+  margin: 300px auto 0 200px;
+  top: 20px;
+}
+.div-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.div-img .img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  height: 350px;
+  border-radius: 20px;
+}
+
+
+.container2 {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  right: 250px;
+  margin: 300px auto 0 ;
+  top: 20px;
+}
+
+.div-img2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.div-img2 .img2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 350px;
+  height: 350px;
+  border-radius: 20px;
+}
+
+div > a {
+  text-decoration: none;
+  color: #333;
+  font-size: 1.3em;
+}

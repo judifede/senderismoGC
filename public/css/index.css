@@ -1,0 +1,73 @@
+.section{
+	width: 80%;
+	height: 80%;
+	border: 1px solid blue;
+	margin: auto;
+	margin-top: 1%;
+}
+article h2{
+    text-align: left;
+}
+.panel1{
+	box-sizing: border-box;
+	padding: 20px;
+    display: inline-block;
+    width: 45%;
+    height: 45%;
+    margin: 2%;
+    border-radius: 10px;
+    background-color: #F6F6F6;
+    box-shadow: 0px 0px 5px 1px #6B8E23;
+
+}
+.panel2{
+	box-sizing: border-box;
+	padding: 20px;
+    display: inline-block;
+    width: 45%;
+    height: 45%;
+    margin: 2%;
+    border-radius: 10px;
+    background-color: #F6F6F6;
+    box-shadow: 0px 0px 5px 1px #6B8E23;
+}
+.panel1 p {
+	margin: 0;
+    margin-bottom: 20px;
+	font-size: 1em;
+}
+.panel2 p {
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 1em;
+}
+.panel1 > img{
+	width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 2%;
+    border-radius: 25px 25px 25px 25px;
+}
+.panel1 > a {
+	text-decoration: none;
+	color: #6B8E23;
+	margin-left: 76%;
+}
+.panel2 > img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-right: 2%;
+    border-radius: 25px 25px 25px 25px;
+}
+.panel2 > a {
+    text-decoration: none;
+    color: #6B8E23;
+    margin-left: 76%;
+}
+.flechaDerecha{
+    height: 25px;
+    width: 25px;
+    margin-left: 5px;
+    vertical-align: bottom;
+}

@@ -1,0 +1,63 @@
+footer{
+	overflow: hidden;
+	width: 100%;
+    margin: auto;
+	position: relative;
+	background-color: #333;
+}
+body{
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+section{
+	flex: 1;
+}
+#footerIzq {
+	position: relative;
+    top: -1.5%;
+	width: 30%;
+	display: inline-block;
+}
+#about{
+	font-size: 1.2em !important;
+}
+#footerIzq p{
+	color: white;
+	text-align: left;
+	margin: 10px;
+	font-size: 0.7em;
+	vertical-align: middle;
+}
+#footerCen{
+    position: relative;
+    top: -10%;
+    width: 30%;
+    display: inline-block;
+}
+#footerCen p{
+	color: darkgrey;
+	text-align: center;
+	margin: 10px;
+	font-size: 0.7em;
+	display: inline;
+	vertical-align: middle;
+}
+#footerDer{
+    position: relative;
+    top: -1.5%;
+	width: 30%;
+	display: inline-block;
+}
+#footerDer img{
+	float: right;
+	margin: 20px 15px 0 0;
+}
+
+footer img:hover {
+	transform: scale(1.1,1.1);
+}
+.redesSociales{
+	width: 30px;
+	height: 30px;
+}

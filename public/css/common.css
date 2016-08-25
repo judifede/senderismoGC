@@ -1,0 +1,31 @@
+body{
+	background-color: #CD853F;
+	font-family: 'Open Sans';
+	text-align: center;
+	min-width: 550px;
+    margin: 0;
+    padding: 0;
+}
+
+#flechaSubir{
+	height: 40px;
+	width: 40px;
+	visibility: hidden;
+	position: fixed;
+	right: 60px;
+	bottom: 150px;
+}
+#flechaSubir:hover{
+	cursor: pointer ;
+}
+h1,h2{
+    color:#343642;
+}
+h1{
+	font-size: 2.3em;
+}
+h2{
+	margin:auto;
+	font-size: 1.5em;
+	margin-bottom: 3%;
+}
